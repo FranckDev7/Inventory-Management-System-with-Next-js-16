@@ -3,7 +3,7 @@ import { JetBrains_Mono } from 'next/font/google';
 import { Outfit } from 'next/font/google';
 import './globals.css';
 import React from 'react';
-import Header from '@/components/Header';
+
 
 const jetBrains = JetBrains_Mono({
   subsets: ['latin'],

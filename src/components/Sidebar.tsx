@@ -14,7 +14,7 @@ const Sidebar = ({ className = '' }: { className?: string | undefined }) => {
     <div
       className={`flex flex-col items-start justify-start space-y-6 bg-blue-950 p-4 ${className}`}
     >
-      <h1 className={'mb-8 text-xl font-bold text-gray-100 '}>
+      <h1 className={'mb-8 text-xl font-bold text-gray-100'}>
         Système de gestion de stocks
       </h1>
       {/* Dahboard */}
@@ -24,7 +24,7 @@ const Sidebar = ({ className = '' }: { className?: string | undefined }) => {
             'group relative flex w-full cursor-pointer items-center justify-center gap-1 space-x-2'
           }
         >
-          <DashboardIcon color={"primary"}/>
+          <DashboardIcon color={'primary'} />
           <p
             className={
               'text-center text-sm text-gray-200 group-hover:text-blue-400'
@@ -41,7 +41,7 @@ const Sidebar = ({ className = '' }: { className?: string | undefined }) => {
             'group relative flex w-full cursor-pointer items-center justify-center gap-1 space-x-2'
           }
         >
-          <Inventory2Icon color={"primary"}/>
+          <Inventory2Icon color={'primary'} />
           <p className={'text-sm text-gray-200 group-hover:text-blue-400'}>
             Produits
           </p>
@@ -54,7 +54,7 @@ const Sidebar = ({ className = '' }: { className?: string | undefined }) => {
             'group relative flex w-full cursor-pointer items-center justify-center gap-1 space-x-2'
           }
         >
-          <CategoryIcon color={"primary"} />
+          <CategoryIcon color={'primary'} />
           <p className={'text-sm text-gray-200 group-hover:text-blue-400'}>
             Categories
           </p>
@@ -63,11 +63,11 @@ const Sidebar = ({ className = '' }: { className?: string | undefined }) => {
       {/* Orders */}
       <Link href={'/orders'}>
         <div
-            className={
-              'group relative flex w-full cursor-pointer items-center justify-center gap-1 space-x-2'
-            }
+          className={
+            'group relative flex w-full cursor-pointer items-center justify-center gap-1 space-x-2'
+          }
         >
-          <ShoppingCartIcon color={"primary"} />
+          <ShoppingCartIcon color={'primary'} />
           <p className={'text-sm text-white group-hover:text-blue-400'}>
             Commandes
           </p>
@@ -79,7 +79,7 @@ const Sidebar = ({ className = '' }: { className?: string | undefined }) => {
             'group relative flex w-full cursor-pointer items-center justify-center gap-1 space-x-2'
           }
         >
-          <LocalShippingIcon color={"primary"} />
+          <LocalShippingIcon color={'primary'} />
           <p className={'text-sm text-gray-200 group-hover:text-blue-400'}>
             Fournisseurs
           </p>
@@ -92,7 +92,7 @@ const Sidebar = ({ className = '' }: { className?: string | undefined }) => {
             'group relative flex w-full cursor-pointer items-center justify-center gap-1 space-x-2'
           }
         >
-          <GroupIcon color={"primary"} />
+          <GroupIcon color={'primary'} />
           <p className={'text-sm text-gray-200 group-hover:text-blue-400'}>
             Utilisateurs
           </p>
@@ -104,7 +104,7 @@ const Sidebar = ({ className = '' }: { className?: string | undefined }) => {
             'group relative flex w-full cursor-pointer items-center justify-center gap-1 space-x-2'
           }
         >
-          <SettingsIcon color={"primary"} />
+          <SettingsIcon color={'primary'} />
           <p className={'text-sm text-gray-200 group-hover:text-blue-400'}>
             Profile
           </p>
@@ -116,7 +116,7 @@ const Sidebar = ({ className = '' }: { className?: string | undefined }) => {
             'group relative flex w-full cursor-pointer items-center justify-center gap-1 space-x-2'
           }
         >
-          <LogoutIcon color={"primary"} />
+          <LogoutIcon color={'primary'} />
           <p className={'text-sm text-gray-200 group-hover:text-blue-400'}>
             Deconnecter
           </p>
