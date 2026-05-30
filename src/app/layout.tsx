@@ -4,7 +4,6 @@ import { Outfit } from 'next/font/google';
 import './globals.css';
 import React from 'react';
 
-
 const jetBrains = JetBrains_Mono({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700'],

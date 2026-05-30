@@ -67,38 +67,56 @@ export default function Home() {
           </div>
 
           {/* Blocs du millieu */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+          <div className="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:grid-cols-3">
             <div className="rounded-md bg-white p-4 shadow-md">
-              <p className={"font-bold text-lg"}>Produits en rupture de stock</p>
+              <p className={'text-lg font-bold'}>
+                Produits en rupture de stock
+              </p>
               <div>Liste de produits</div>
             </div>
-            <div className="rounded-md bg-white p-4 shadow-md flex flex-col">
-              <p className={"mb-4 font-bold text-lg"}>Produits les plus vendus</p>
-              <div className={"flex gap-4 text-sm"}>
-                  <div>
-                    <p className={"font-semibold"}>Name</p>
-                    <p className={"font-semibold"}>Category</p>
-                    <p className={"font-semibold"}>Total Units Sold</p>
-                  </div>
-                  <div>
-                    <p>: <span className={"pl-2"}>Monitor</span></p>
-                    <p>: <span className={"pl-2"}>Electronic</span></p>
-                    <p>: <span className={"pl-2"}>2</span></p>
-                  </div>
+            <div className="flex flex-col rounded-md bg-white p-4 shadow-md">
+              <p className={'mb-4 text-lg font-bold'}>
+                Produits les plus vendus
+              </p>
+              <div className={'flex gap-4 text-sm'}>
+                <div>
+                  <p className={'font-semibold'}>Name</p>
+                  <p className={'font-semibold'}>Category</p>
+                  <p className={'font-semibold'}>Total Units Sold</p>
+                </div>
+                <div>
+                  <p>
+                    : <span className={'pl-2'}>Monitor</span>
+                  </p>
+                  <p>
+                    : <span className={'pl-2'}>Electronic</span>
+                  </p>
+                  <p>
+                    : <span className={'pl-2'}>2</span>
+                  </p>
+                </div>
               </div>
             </div>
             <div className="rounded-md bg-white p-4 shadow-md">
-              <p className={"mb-4 font-bold text-lg"}>Produits à faible stock</p>
-              <div className={"flex gap-4 text-sm"}>
+              <p className={'mb-4 text-lg font-bold'}>
+                Produits à faible stock
+              </p>
+              <div className={'flex gap-4 text-sm'}>
                 <div>
-                  <p className={"font-semibold"}>Name</p>
-                  <p className={"font-semibold"}>Category</p>
-                  <p className={"font-semibold"}>Total Units Sold</p>
+                  <p className={'font-semibold'}>Name</p>
+                  <p className={'font-semibold'}>Category</p>
+                  <p className={'font-semibold'}>Total Units Sold</p>
                 </div>
                 <div>
-                  <p>: <span className={"pl-2"}>Monitor</span></p>
-                  <p>: <span className={"pl-2"}>PC</span></p>
-                  <p>: <span className={"pl-2"}>RAM</span></p>
+                  <p>
+                    : <span className={'pl-2'}>Monitor</span>
+                  </p>
+                  <p>
+                    : <span className={'pl-2'}>PC</span>
+                  </p>
+                  <p>
+                    : <span className={'pl-2'}>RAM</span>
+                  </p>
                 </div>
               </div>
             </div>
